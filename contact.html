@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordnance Factory - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="medak.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Ordnance Factory - Contact Us</h1>
+        <!-- Include navigation -->
+        <div id="nav-placeholder"></div>
+        <div class="back">
+        <body style="background-image: url('back.webp'); background-size: cover;">
+            <body style="background-image: url('loop.jpg'); background-size: cover;"></body>
+    </div>
+    </header>
+    
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at <a href="mailto:contact@ordnancefactory.com">contact@ordnancefactory.com</a> or call us at <a href="tel:1234567890">(123) 456-7890</a>.</p>
+            
+            <div class="contact-buttons">
+                <a href="tel:7013032859" class="call-button">
+                    <i class="fas fa-phone-alt"></i> Call Us
+                </a>
+                <a href="https://wa.me/7013032869" class="chat-button">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Chat
+                </a>
+            </div>
+
+            <div class="map-container">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948172.6830495386!2d76.86894080803313!3d17.506330900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbf02203aa36f1%3A0x2fc520c8f8418b0b!2sOrdnance%20Factory%20Medak%20Office!5e0!3m2!1sen!2sin!4v1719909697104!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <aside>
+            <h2>Advertisements</h2>
+            <p>Ad content here.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ordnance Factory. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Load the navigation bar
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

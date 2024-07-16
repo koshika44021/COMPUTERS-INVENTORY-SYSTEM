@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordnance Factory - Home</title>
+    <link rel="icon" href="medak.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ordnance Factory - PC Devices</h1>
+        <!-- Include navigation -->
+        <div id="nav-placeholder"></div>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to Ordnance Factory</h2>
+            <p>Your one-stop solution for all PC devices, including PCs, printers, scanners, and other devices.</p>
+        </section>
+
+        <aside>
+            <h2>Advertisements</h2>
+            <p>Ad content here.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ordnance Factory. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Load the navigation bar
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

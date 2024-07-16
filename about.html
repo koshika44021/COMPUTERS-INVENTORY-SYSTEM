@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordnance Factory - PC Devices</title>
+    <link rel="icon" href="medak.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="newl.png" alt="Ordnance Factory Logo">
+    </div>
+    <header>
+        <h1>Ordnance Factory - PC Devices</h1>
+        <!-- Include navigation -->
+        <div id="nav-placeholder"></div>
+    </header>
+    
+    <main>
+        <div class="device-grid">
+            <section id="printers" class="device-section">
+                <img src="printers.jpg" alt="Printers">
+                <div class="description">
+                    <h2>Printers</h2>
+                    <p>Printers are devices that accept text and graphic output from a computer and transfer the information to paper, usually to standard size sheets of paper. Printers vary in size, speed, and sophistication. They are available in both wired and wireless formats.</p>
+                </div>
+            </section>
+
+            <section id="scanners" class="device-section">
+                <img src="scanners.jpg" alt="Scanners">
+                <div class="description">
+                    <h2>Scanners</h2>
+                    <p>Scanners are devices that capture images from photographic prints, posters, magazine pages, and similar sources for computer editing and display. Flatbed scanners, sheet-fed scanners, and handheld scanners are different types of scanners used in various applications.</p>
+                </div>
+            </section>
+
+            <section id="wifi" class="device-section">
+                <img src="routers.jpg" alt="WiFi">
+                <div class="description">
+                    <h2>WiFi</h2>
+                    <p>WiFi, or wireless fidelity, is a technology that allows electronic devices to connect to a wireless LAN (WLAN) network, mainly using the 2.4 gigahertz and 5 gigahertz frequency bands. It is commonly used for home networks, allowing devices to connect to the internet without cables.</p>
+                </div>
+            </section>
+
+            <section id="monitors" class="device-section">
+                <img src="monitors.jpg" alt="Monitors">
+                <div class="description">
+                    <h2>Monitors</h2>
+                    <p>Monitors, also known as displays, are output devices that display information in pictorial form. A monitor usually comprises a visual display, some circuitry, a casing, and a power supply. Modern monitors are typically thin film transistor liquid crystal displays (TFT-LCD).</p>
+                </div>
+            </section>
+            <section id="Microphones" class="device-section">
+                <img src="micro.jpg" alt="Microphones">
+                <div class="description">
+                    <h2>Microphones</h2>
+                    <p>A microphone is a device that converts sound waves into an electrical signal. It allows you to capture audio and transmit it to various devices, such as computers, amplifiers, or recording equipment.</p>
+                </div>
+            </section>
+            <section id="Projectors" class="device-section">
+                <img src="projector.jpg" alt="Projectors">
+                <div class="description">
+                    <h2>Projectors</h2>
+                    <p>A projector is a device that allows you to display images, videos, or other content on a large screen or surface. It works by projecting light through a lens, which magnifies and focuses the image onto the desired surface, creating a larger representation of the content being displayed.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ordnance Factory. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Load the navigation bar
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

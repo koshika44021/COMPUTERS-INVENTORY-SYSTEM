@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordnance Factory - Help</title>
+    <link rel="icon" href="medak.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ordnance Factory - Help</h1>
+        <!-- Include navigation -->
+        <div id="nav-placeholder"></div>
+        <div class="search-container">
+            <input type="text" id="searchQuery" placeholder="Search...">
+            <button onclick="searchFunction()">Search</button>
+        </div>
+    </header>
+    <body style="background-image: url('back.webp'); background-size: cover;"></body>
+    <main>
+        <section id="help">
+            <div class="head">
+                <h2>Help</h2>
+                <p>For assistance, please visit our help center or contact our support team.</p>
+            </div>
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-item">
+                    <h4>Printers</h4>
+                    <details>
+                        <summary>How do I troubleshoot common printer problems?</summary>
+                        <p>Check if the printer is properly connected, ensure there is enough paper, and check for any error messages on the printer display. If the problem persists, refer to the printer's manual or contact support.</p>
+                    </details>
+                    <details>
+                        <summary>What type of printer is best for home use?</summary>
+                        <p>For home use, an inkjet printer is typically sufficient as it offers good quality printing for both text and images and is generally more affordable.</p>
+                    </details>
+                    <details>
+                        <summary>How do I connect a wireless printer to my network?</summary>
+                        <p>Refer to the printer's manual for specific instructions. Generally, you can connect it through Wi-Fi by entering your network's SSID and password on the printer's display panel.</p>
+                    </details>
+                    <details>
+                        <summary>How do I install printer drivers?</summary>
+                        <p>Visit the manufacturer's website to download the latest drivers for your printer model. Follow the installation instructions provided.</p>
+                    </details>
+                    <details>
+                        <summary>How do I replace the ink cartridges?</summary>
+                        <p>Open the printer cover and follow the instructions provided in the printer manual to remove and replace the ink cartridges.</p>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <h4>Scanners</h4>
+                    <details>
+                        <summary>How can I improve scan quality?</summary>
+                        <p>Ensure the scanner glass is clean, use the highest resolution settings available, and make sure the document is properly aligned on the scanner bed.</p>
+                    </details>
+                    <details>
+                        <summary>What types of scanners are available?</summary>
+                        <p>Common types of scanners include flatbed scanners, sheet-fed scanners, and handheld scanners. Each type is suited for different scanning needs.</p>
+                    </details>
+                    <details>
+                        <summary>How do I connect a scanner to my computer?</summary>
+                        <p>Most scanners connect via USB. Plug the USB cable into your computer and install the necessary drivers. Some scanners also support wireless connections.</p>
+                    </details>
+                    <details>
+                        <summary>How do I scan a document to PDF?</summary>
+                        <p>Use the scanner's software to select the PDF format. Place the document on the scanner and follow the prompts to complete the scan.</p>
+                    </details>
+                    <details>
+                        <summary>How do I clean the scanner glass?</summary>
+                        <p>Use a soft, lint-free cloth slightly moistened with glass cleaner. Wipe the scanner glass gently to remove any dust or smudges.</p>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <h4>WiFi Routers</h4>
+                    <details>
+                        <summary>How do I set up my WiFi router?</summary>
+                        <p>Connect the router to your modem, access the router's setup page via a web browser, and follow the setup wizard to configure your network settings. Refer to the router's manual for specific instructions.</p>
+                    </details>
+                    <details>
+                        <summary>How can I improve my WiFi signal?</summary>
+                        <p>Place the router in a central location, avoid physical obstructions, and reduce interference from other electronic devices. Consider using WiFi extenders if needed.</p>
+                    </details>
+                    <details>
+                        <summary>How do I change my WiFi password?</summary>
+                        <p>Access your router's setup page via a web browser, navigate to the wireless settings, and change the password. Save the changes and reconnect your devices.</p>
+                    </details>
+                    <details>
+                        <summary>How do I reset my router to factory settings?</summary>
+                        <p>Press and hold the reset button on the router for about 10 seconds. This will reset the router to its default settings. You will need to reconfigure it afterwards.</p>
+                    </details>
+                    <details>
+                        <summary>How do I update my router's firmware?</summary>
+                        <p>Visit the manufacturer's website to download the latest firmware for your router model. Access the router's setup page and follow the instructions to update the firmware.</p>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <h4>Monitors</h4>
+                    <details>
+                        <summary>What should I consider when buying a new monitor?</summary>
+                        <p>Consider the monitor's resolution, size, refresh rate, and connectivity options. Make sure it fits your specific needs, whether for general use, gaming, or professional work.</p>
+                    </details>
+                    <details>
+                        <summary>How do I adjust the monitor settings for better display quality?</summary>
+                        <p>Use the monitor's built-in settings to adjust brightness, contrast, and color settings. Also, ensure your computer's display settings are configured correctly.</p>
+                    </details>
+                    <details>
+                        <summary>How do I connect multiple monitors to my computer?</summary>
+                        <p>Ensure your computer has the necessary ports. Connect each monitor using the appropriate cables and configure the display settings in your operating system.</p>
+                    </details>
+                    <details>
+                        <summary>How do I clean my monitor screen?</summary>
+                        <p>Use a soft, lint-free cloth slightly moistened with water or a screen cleaner. Wipe the screen gently to remove any dust or smudges.</p>
+                    </details>
+                    <details>
+                        <summary>What is the difference between LCD and LED monitors?</summary>
+                        <p>LCD (Liquid Crystal Display) monitors use liquid crystals to display images. LED (Light Emitting Diode) monitors are a type of LCD that use LEDs for backlighting, offering better brightness and energy efficiency.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <h2>Advertisements</h2>
+            <p>Ad content here.</p>
+        </aside>
+        <section id="search-results" class="hidden">
+            <h3>Search Results</h3>
+            <div id="search-answer" class="answer-box"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ordnance Factory. All rights reserved.</p>
+    </footer>
+    <script>
+        function searchFunction() {
+            var query = document.getElementById("searchQuery").value.toLowerCase();
+            var answerBox = document.getElementById("search-answer");
+            var searchSection = document.getElementById("search-results");
+
+            fetch(`https://www.googleapis.com/customsearch/v1?key=YOUR_API_KEY&cx=YOUR_SEARCH_ENGINE_ID&q=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.items) {
+                        let results = data.items.map(item => `<p><a href="${item.link}" target="_blank">${item.title}</a><br>${item.snippet}</p>`).join('');
+                        answerBox.innerHTML = results;
+                        searchSection.classList.remove("hidden");
+                    } else {
+                        answerBox.innerHTML = "No results found. Please try another query.";
+                        searchSection.classList.remove("hidden");
+                    }
+                })
+                .catch(error => {
+                    answerBox.innerHTML = "An error occurred while fetching the results. Please try again.";
+                    searchSection.classList.remove("hidden");
+                });
+        }
+    </script>
+</body>
+</html>
